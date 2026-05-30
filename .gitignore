@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Sensitive business data
+customer_data/
+private_data/
+*.key
+*.pem
