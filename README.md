@@ -20,6 +20,30 @@ The goal of this project is to build simple automation tools for foreign trade w
 * `prompts/`
   Store useful prompts for Codex, ChatGPT, and automation task planning.
 
+## Current Automation Script
+
+### Made-in-China Product Title Generator
+
+This script reads product data from:
+
+```text
+data/sample_products.csv
+```
+
+It generates product title drafts and saves the result to:
+
+```text
+outputs/generated_titles.csv
+```
+
+To run the script locally, use:
+
+```powershell
+python scripts/generate_titles.py
+```
+
+This is my first simple automation practice for B2B foreign trade product operation.
+
 ## Future Automation Ideas
 
 * Clean product data automatically
